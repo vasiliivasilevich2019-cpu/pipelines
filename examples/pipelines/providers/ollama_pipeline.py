@@ -29,7 +29,7 @@ class Pipeline:
         # This is where you can add your custom pipelines like RAG.
         print(f"pipe:{__name__}")
 
-        OLLAMA_BASE_URL = "http://app:11434"
+        OLLAMA_BASE_URL = "http://localhost:11434"
         MODEL = "gpt-oss"
 
         if "user" in body:
